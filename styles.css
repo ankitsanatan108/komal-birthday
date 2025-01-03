@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(218, 59, 59);
+    font-weight: bolder;
+}
+.flower{
+    height: 300px;
+    background-image: url(f3.webp);
+    background-size: contain;
+}
+.music{
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    background-image: url(p1.jpg);
+}
+.maincontent{
+    height: 800px;
+    
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(p5.jpg);
+    background-size: cover;
+}
+.circle{
+    height: 400px;
+    width: 400px;
+    
+    border: 7px solid wheat;
+    border-radius: 50%;
+    margin: 120px;
+    background-image: url(cp.jpg);
+    background-size: cover;
+}
+.wish{
+    height:400px;
+    width: 700px;
+    margin-right: 50px;
+    border: 5px solid wheat;
+    background-image: url(p1.jpg);
+    background-size: contain;
+}
+/**link area**/
+.photos{
+    height: 200px;
+    margin-top: 10px;
+    border: 2px solid gray;
+    
+}
+#t1{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline dashed;
+}
+.links{
+    height: 100px;
+    background-color: rgb(150, 103, 111);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
